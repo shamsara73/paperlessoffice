@@ -1,0 +1,66 @@
+body {
+    /* change this color to alter the view */
+    /* good color sample : 
+    https://colorhunt.co/ 
+    https://www.color-hex.com/color-palettes/ 
+    
+    */
+    height: 100vh;
+    --color-navbar:#091540;
+    --color-sidebar:#091540;
+    --color-accent:#3D518C;
+    --color-font:#fff;
+
+
+    background-color: var(--color-sidebar);
+
+}
+
+
+.navbar-default{
+    background-color: var(--color-navbar);
+    border-color: var(--color-navbar);
+}
+.sidebar ul li {
+    background-color:var(--color-sidebar);
+    border-bottom: 1px solid var(--color-accent);
+}
+.navbar-default .navbar-brand {
+    color:var(--color-font);
+}
+.navbar-top-links li a {
+    color:var(--color-font);
+    padding: 15px;
+    min-height: 50px;
+}
+.navbar-top-links li {
+    background-color:var(--color-navbar);
+}
+.navbar-top-links li a:hover{
+    background-color:var(--color-accent);
+    color:var(--color-font);
+}
+.navbar-top-links li a:active{
+    background-color:var(--color-accent);
+}
+.navbar-top-links .dropdown-user {
+    background-color:var(--color-navbar);
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color:var(--color-accent);
+    border-color: var(--color-font);
+}
+.sidebar ul li a.active {
+    background-color:var(--color-accent);
+}
+.sidebar ul li a:hover {
+    background-color:var(--color-accent);
+}
+.sidebar-nav li a{
+    padding: 15px 20px;
+    color:var(--color-font);
+}
+.sidebar-nav li a span{
+    padding-left: 15px;
+    vertical-align: super;
+}
