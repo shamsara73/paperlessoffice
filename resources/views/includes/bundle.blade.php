@@ -4,7 +4,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Paperless Office FT UGM</title>
+<title>Paperless Office</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="{{ asset('css/bootstrap.css')}}" rel="stylesheet" />
